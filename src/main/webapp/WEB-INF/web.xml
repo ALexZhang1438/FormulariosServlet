@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>Ejemplo_Examen</display-name>
+	<description></description>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>ConfirmarTitulacion</servlet-name>
+		<servlet-class>confirmacion.ConfirmarTitulacion</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ConfirmarTitulacion</servlet-name>
+		<url-pattern>/confirmarT</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ConfirmarAlumno</servlet-name>
+		<servlet-class>confirmacion.ConfirmarAlumno</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ConfirmarAlumno</servlet-name>
+		<url-pattern>/confirmarA</url-pattern>
+	</servlet-mapping>
+</web-app>     
