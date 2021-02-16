@@ -28,4 +28,14 @@
 		<servlet-name>ConfirmarAlumno</servlet-name>
 		<url-pattern>/confirmarA</url-pattern>
 	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>ListadoAlumno</servlet-name>
+		<servlet-class>listado.ListadoAlumno</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ListadoAlumno</servlet-name>
+		<url-pattern>/listadoA</url-pattern>
+	</servlet-mapping>
 </web-app>     

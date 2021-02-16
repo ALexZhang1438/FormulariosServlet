@@ -42,6 +42,10 @@ public class InsercionDB {
 		}
 	}
 	
+	public List<Alumno> listAlumnos() {
+		return repositorio.searchAllAlumno();
+	}
+	
 	public Repositorio getRepositorio() {
 		return repositorio;
 	}

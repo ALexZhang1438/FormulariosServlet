@@ -13,6 +13,6 @@
 		<br>
 		<a href="index.jsp">Index</a>
 		<br>
-		<a>Listado Alumnos</a>
+		<a href="LsAlumno.jsp">Listado Alumnos</a>
 	</body>
 </html>

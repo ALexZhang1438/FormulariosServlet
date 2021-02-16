@@ -199,7 +199,7 @@ public class Repositorio {
 			return listTitulo;
 		}
 		// Lista de Alumnos
-		public List<Alumno> searchAll() {
+		public List<Alumno> searchAllAlumno() {
 			List<Alumno> listAlumnos = new ArrayList<Alumno>();
 			Connection conn = manager.open(jdbcUrl);
 			ResultSet resultSet = null;
